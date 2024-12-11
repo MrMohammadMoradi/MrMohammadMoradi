@@ -1,4 +1,5 @@
 import me from "@src/assets/images/me.png"
+import { SkillList } from "../components/SkillList";
 export const HomePage = () => {
   return (
       <div className="h-full overflow-y-auto">
@@ -44,6 +45,9 @@ export const HomePage = () => {
                   projects, I&apos;d be thrilled to connect with you! 🤝
               </p>
           </div>
+          <div className="py-5 ">
+                <SkillList />
+            </div>
 
       </div>
   );
