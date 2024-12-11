@@ -5,10 +5,10 @@ export const Header = () => {
     return (
         <div className="container rounded-xl shadow-md px-3 py-2">
             <nav className="flex justify-between items-center">
-                <div className="flex flex-row md:hidden">
+                <div className="flex flex-row lg:hidden">
                     <HamburgerMenu />
                 </div>
-                <div className="hidden md:flex w-[400px] ">
+                <div className="hidden lg:flex w-[400px] ">
                     <Navbar />
                 </div>
                 <h2 className="font-bold px-3">
