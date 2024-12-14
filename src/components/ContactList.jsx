@@ -12,7 +12,7 @@ const contactItem = [
         id: 1,
         contactName: "Linkedin",
         contactIcon: <FaLinkedin size={80} color="rgb(1, 81, 161)" />,
-        contactLink: "www.linkedin.com/in/mr-mohammad-moradi",
+        contactLink: "https://linkedin.com/in/mr-mohammad-moradi",
     },
     {
         id: 2,

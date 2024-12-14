@@ -1,23 +1,25 @@
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 const links = [
     {
         id: 0,
-        linkName: "HomePage",
+        linkName: "layout.homPage_btn",
         pathLink: "/",
     },
     {
         id: 1,
-        linkName: "About Me",
+        linkName: "layout.aboutMe_btn",
         pathLink: "/about-me",
     },
     {
         id: 2,
-        linkName: "Contact Me",
+        linkName: "layout.contactMe_btn",
         pathLink: "/contact-me",
     },
 ];
 export const Navbar = () => {
+    const {t} = useTranslation()
     return (
         <>
             <ul className="flex flex-col gap-2 lg:flex-row w-full justify-evenly">
@@ -27,7 +29,7 @@ export const Navbar = () => {
                             className=" px-2 py-1 cursor-pointer w-full duration-150 bg-white shadow-lg rounded-xl hover:bg-blue-950 hover:text-white hover:transition-all ease-in "
                             to={item.pathLink}
                         >
-                            {item.linkName}
+                            {t(item.linkName)}
                         </Link>
                     </li>
                 ))}

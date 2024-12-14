@@ -1,25 +1,25 @@
 import logo from "@src/assets/images/lar-logo.png";
 import quera from "@src/assets/images/quera_logo.jpeg"
+import { t } from "i18next";
 
 const data = [
     {
         id: 0,
-        titleSection: "Education",
+        titleSection: "HomePage.education",
         photo: logo,
-        titleCard: "Larestan Higher Education Complex",
-        subTitle:
-            "Bachelor of Computer Engineering, Computer Software EngineeringBachelor of Computer Engineering,Computer Software Engineering",
-        date: "Sep 2019 - Aug 2024",
+        titleCard: "HomePage.university",
+        subTitle: "HomePage.degree",
+        date: "HomePage.uni_date",
         haveLink: false,
         link: "",
     },
     {
         id: 1,
-        titleSection: "Licenses & certifications",
+        titleSection: "HomePage.licenses",
         photo: quera,
-        titleCard: "TASK-ORIENTED BOOTCAMP IN FRONT-END DEVELOPMENT WITH REACT",
-        subTitle:"Quera",
-        date: "Issued Jun 2023",
+        titleCard: "HomePage.course_name",
+        subTitle:"HomePage.company",
+        date: "HomePage.course_date",
         haveLink: true,
         link: "https://quera.org/certificate/myzbvykf/",
     },
@@ -32,21 +32,21 @@ export const Education_Licenses = () => {
                 data.map((item)=>(
                     <div key={item.id} className="flex flex-col px-5 py-3">
                 <h3 className="text-2xl text-blue-950 font-bold text-center">
-                    {item.titleSection}
+                    {t(item.titleSection)}
                 </h3>
                 <div className="flex flex-col md:flex-row p-2 items-center rounded-xl hover:shadow-xl">
-                    <img className="rounded-xl size-20" src={item.photo} alt={item.titleCard} />
+                    <img className="rounded-xl size-20" src={item.photo} alt={t(item.titleCard)} />
                     <div className="flex flex-col ps-2 text-center md:text-start">
-                        <h4 className=" font-bold">{item.titleCard}</h4>
-                        <p className="">{item.subTitle}</p>
-                        <p className="text-gray-700">{item.date}</p>
+                        <h4 className=" font-bold">{t(item.titleCard)}</h4>
+                        <p className="">{t(item.subTitle)}</p>
+                        <p className="text-gray-700">{t(item.date)}</p>
                         <div className="flex justify-center items-center md:justify-start">
                         {
                             item.haveLink ? (
                                 <a href={item.link}
                                     target="_blank"
                                     className="px-3 py-2 w-40 text-center rounded-full hover:shadow-xl">
-                                        Show credential
+                                        {t('HomePage.certificate')}
                                 </a>
                             ) : ("")
                         }

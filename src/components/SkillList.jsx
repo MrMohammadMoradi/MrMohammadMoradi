@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { BiLogoJavascript } from "react-icons/bi";
 import { FaWordpress } from "react-icons/fa";
 import {
@@ -76,15 +77,16 @@ const skillItems = [
     {
         id: 10,
         skillName: "WordPress",
-        skillIcon: <FaWordpress size={64} color="rgb(32, 113, 150)"/>,
+        skillIcon: <FaWordpress size={64} color="rgb(32, 113, 150)" />,
         reference: "https://fa.wordpress.org/",
     },
 ];
 export const SkillList = () => {
+    const { t } = useTranslation();
     return (
         <>
             <h3 className="font-bold text-center cursor-default text-2xl text-blue-950">
-                SkillList
+                {t("HomePage.skill_list")}
             </h3>
             <div className="container py-4 flex flex-wrap justify-evenly items-center">
                 {skillItems.map((item) => (
