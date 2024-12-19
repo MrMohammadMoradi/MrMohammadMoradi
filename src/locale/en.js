@@ -47,4 +47,8 @@ export const en = {
         mail: "Send Mail",
         networks: "My social Networks",
     },
+    NotFoundPage: {
+        notFound: "You have come the wrong way",
+        backHome: "Back to Home",
+    },
 };

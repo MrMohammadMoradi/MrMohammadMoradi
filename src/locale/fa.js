@@ -46,4 +46,8 @@ export const fa = {
         mail: "ارسال ایمیل",
         networks: "شبکه‌های اجتماعی من",
     },
+    NotFoundPage: {
+        notFound: "مسیر اشتباهی آمدید",
+        backHome: "برگشت به خانه",
+    },
 };

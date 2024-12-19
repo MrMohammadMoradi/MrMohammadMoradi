@@ -5,6 +5,7 @@ import { HomePage } from "./pages";
 import { AboutMe } from "./pages/AboutMe";
 import { ContactMe } from "./pages/ContactMe";
 import { Projects } from "./pages/Projects";
+import { NotFound } from "./pages/NotFound";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
                         <Route path="/about-me" element={<AboutMe />} />
                         <Route path="/projects" element={<Projects/>}/>
                         <Route path="/contact-me" element={<ContactMe />} />
+                        <Route path="*" element={<NotFound/>} />
                     </Route>
                 </Routes>
             </BrowserRouter>
