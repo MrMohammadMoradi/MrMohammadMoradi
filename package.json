@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "antd": "^5.22.5",
     "hamburger-react": "^2.5.1",
     "i18next": "^24.1.0",
     "i18next-http-backend": "^3.0.1",

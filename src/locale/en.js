@@ -1,8 +1,9 @@
 export const en = {
     layout: {
         myName: "Mohammad Moradi",
-        homPage_btn: "Home Page",
+        homPage_btn: "Home",
         aboutMe_btn: "About Me",
+        projects_btn: "Projects",
         contactMe_btn: "Contact Me",
         enLang: "English",
         faLang: "Persian",
@@ -37,6 +38,9 @@ export const en = {
         aboutPage_p1: "First, a full introduction of myself ",
         aboutPage_p2: "First, a full introduction of myself ",
         aboutPage_p3: "First, a full introduction of myself ",
+    },
+    ProjectsPage:{
+        projects: "My Projects",
     },
     ContactMePage: {
         call: "Call Me",

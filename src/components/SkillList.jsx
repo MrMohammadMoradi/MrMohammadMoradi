@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { BiLogoJavascript } from "react-icons/bi";
-import { FaWordpress } from "react-icons/fa";
+import { FaFigma, FaWordpress } from "react-icons/fa";
 import {
     FaBootstrap,
     FaCss3Alt,
@@ -9,7 +9,7 @@ import {
     FaSass,
 } from "react-icons/fa6";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiTypescript } from "react-icons/si";
+import { SiAntdesign, SiTypescript } from "react-icons/si";
 import { TiHtml5 } from "react-icons/ti";
 import { VscGithub } from "react-icons/vsc";
 
@@ -76,6 +76,18 @@ const skillItems = [
     },
     {
         id: 10,
+        skillName: "Figma",
+        skillIcon: <FaFigma size={64} />,
+        reference: "https://figma.com/",
+    },
+    {
+        id: 11,
+        skillName: "AntDesign",
+        skillIcon: <SiAntdesign size={64} color="rgb(40, 115, 150)" />,
+        reference: "https://ant.design//",
+    },
+    {
+        id: 11,
         skillName: "WordPress",
         skillIcon: <FaWordpress size={64} color="rgb(32, 113, 150)" />,
         reference: "https://fa.wordpress.org/",

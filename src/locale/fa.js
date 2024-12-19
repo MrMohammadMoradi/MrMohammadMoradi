@@ -3,6 +3,7 @@ export const fa = {
         myName: "محمد مرادی",
         homPage_btn: "صفحه اصلی",
         aboutMe_btn: "درباره من",
+        projects_btn: "پروژه ها",
         contactMe_btn: "تماس با من",
         enLang: "انگلیسی",
         faLang: "فارسی",
@@ -36,6 +37,9 @@ export const fa = {
         aboutPage_p1: "ابتدا، معرفی کامل از خودم",
         aboutPage_p2: "ابتدا، معرفی کامل از خودم",
         aboutPage_p3: "ابتدا، معرفی کامل از خودم",
+    },
+    ProjectsPage:{
+        projects: "پروژه های من",
     },
     ContactMePage: {
         call: "با من تماس بگیرید",

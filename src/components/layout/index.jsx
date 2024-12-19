@@ -9,7 +9,7 @@ export const Layout = () => {
     return (
         <div dir={i18n.dir()} className="flex flex-col justify-center items-center h-full p-2 bg-slate-50">
             <Header />
-            <div className="container mx-auto p-3 rounded-lg shadow-lg w-full h-[calc(100vh-107px)]">
+            <div className="container mx-auto p-3 rounded-lg shadow-lg w-full h-[calc(100vh-115px)]">
                 <Outlet />
             </div>
             <Footer />

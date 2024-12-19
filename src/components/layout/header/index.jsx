@@ -18,7 +18,7 @@ export const Header = () => {
                     <div className="flex flex-row lg:hidden">
                         <HamburgerMenu />
                     </div>
-                    <div className="hidden lg:flex w-[400px] ">
+                    <div className="hidden lg:flex w-[700px] ">
                         <Navbar />
                     </div>
                     <div>
