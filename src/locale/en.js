@@ -32,14 +32,17 @@ export const en = {
         certificate: "Show credential",
     },
     AboutMePage: {
-        aboutPage_title1: "First, a full introduction of myself ",
-        aboutPage_title2: "Second, my entrance into the programming world ",
-        aboutPage_title3: "Third, what I am looking for now ",
-        aboutPage_p1: "First, a full introduction of myself ",
-        aboutPage_p2: "First, a full introduction of myself ",
-        aboutPage_p3: "First, a full introduction of myself ",
+        aboutPage_title1: "✨ A Full Introduction of Myself:",
+        aboutPage_title2: "🌱 My Entrance into the Programming World:",
+        aboutPage_title3: "🎯 What I Am Looking for Now:",
+        aboutPage_p1:
+            "Hi there! My name is Mohammad Moradi, and I am a passionate and creative programmer who thrives on hard work and curiosity. Growing up with computers, I’ve always been fascinated by the idea of turning my ideas into something practical and real. My personality is introverted (INTJ or ISFJ), but my determination to learn and grow drives me forward. 💻🌟 ",
+        aboutPage_p2:
+            "My journey into programming began during my teenage years when I discovered Python. My first resource was a Persian-translated book called Python for Students, which sparked my love for coding. Most of my skills are self-taught, acquired through online courses, and I’ve gained hands-on experience with libraries like Selenium for web crawling. During university, I shifted my focus to front-end development. I started with the Roshdana program to build a solid foundation and later joined the Quera bootcamp to enhance my skills and prepare for the job market. Along the way, I also explored WordPress and designed several websites, giving me a broader perspective on web design. 🌐🚀",
+        aboutPage_p3:
+            "As a recent graduate, I am currently seeking a position in a knowledge-based company (Daneshbonyan) through the Emriyeh program to apply and grow my skills in a professional environment. Additionally, I’m open to collaborating on remote projects in front-end development or WordPress. My ultimate goal is to contribute to creating better digital experiences. 😊✨",
     },
-    ProjectsPage:{
+    ProjectsPage: {
         projects: "My Projects",
     },
     ContactMePage: {
