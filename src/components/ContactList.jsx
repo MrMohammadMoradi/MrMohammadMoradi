@@ -23,7 +23,7 @@ const contactItem = [
 ];
 export const ContactList = () => {
     return (
-        <div className="flex flex-row flex-wrap justify-evenly w-72 sm:w-96 p-1 sm:p-3">
+        <div className="flex flex-col items-center md:flex-row flex-wrap justify-evenly w-72 sm:w-96 p-1 sm:p-3">
             {contactItem.map((item) => (
                 <a
                     href={item.contactLink}

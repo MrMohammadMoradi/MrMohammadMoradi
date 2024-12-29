@@ -11,6 +11,7 @@ export const en = {
     },
     HomePage: {
         hi: "Hi, I'm",
+        cv: "Download My CV",
         introduction: "Introduction",
         intro_p1:
             "Hi! 👋 I'm Mohammad Moradi, a Junior Front-End Developer specializing in React.js ⚛️. During my Computer Engineering studies 🎓, I completed a comprehensive Front-End course with Roshdana, which laid a solid foundation for my web development journey. Later, I joined the Quera front-end React Bootcamp to deepen my knowledge and gain hands-on experience with real-world projects 🚀.",

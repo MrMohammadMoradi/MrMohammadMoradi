@@ -2,6 +2,7 @@ import me from "@src/assets/images/me.png";
 import { SkillList } from "../components/SkillList";
 import { Education_Licenses } from "../components/Education_Licenses";
 import { useTranslation } from "react-i18next";
+import { IoCloudDownloadOutline } from "react-icons/io5";
 export const HomePage = () => {
     const { t } = useTranslation();
     return (
@@ -12,9 +13,19 @@ export const HomePage = () => {
                     <h2 className="text-6xl text-blue-600 drop-shadow-md text-center md:text-start hover:drop-shadow-xl duration-150 ease-linear">
                         {t("layout.myName")}
                     </h2>
-                    <p className="text-center text-xl">
+                    <p className="text-center text-xl py-2">
                         Junior Web Front-end (ReactJs) developer
                     </p>
+                    <div className="flex justify-center items-center">
+                        <a
+                            className="flex justify-center items-center px-5 py-2 rounded-xl hover:shadow-lg"
+                            href="/my-resume.pdf"
+                            download="MohammadMoradi-webFront-end-React.pdf"
+                        >
+                            <span className="px-3">{t("HomePage.cv")}</span>
+                            <IoCloudDownloadOutline size={36} />
+                        </a>
+                    </div>
                 </div>
                 <img
                     src={me}
@@ -39,7 +50,7 @@ export const HomePage = () => {
             <div className="py-5 ">
                 <SkillList />
             </div>
-            <div className="py-5  border-y-2">
+            <div className="py-5 border-y-2">
                 <Education_Licenses />
             </div>
         </div>
